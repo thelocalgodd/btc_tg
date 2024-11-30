@@ -1,0 +1,20 @@
+{
+  "name": "price_tg",
+  "version": "1.0.0",
+  "description": "an app that returns the price of bitcoin and sends to a telegram bot",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "telegram",
+    "bitcoin",
+    "crypto"
+  ],
+  "author": "thelocalgodd",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "nodemailer": "^6.9.16"
+  }
+}
