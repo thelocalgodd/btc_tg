@@ -63,7 +63,7 @@ const sendTelegramMessage = async (chatId, message) => {
 const main = async () => {
   try {
     const { btcPrice, timestamp } = await getCurrentBTCPrice();
-    const message = `<b>Bitcoin Price Update</b>\n\n💰 1 BTC = ${btcPrice}\n⏰ ${timestamp}`;
+    const message = `<b>Bitcoin Price Update? </b>\n\n💰 1 BTC = ${btcPrice}\n⏰ ${timestamp}`;
 
     await sendTelegramMessage(process.env.TELEGRAM_CHAT_ID, message);
   } catch (error) {
